@@ -27,7 +27,7 @@ function buildFunctions() {
             }
         )
     }
-
+    
     return arr;
 
 }
@@ -37,3 +37,8 @@ let fs = buildFunctions();
 fs[0]();
 fs[1]();
 fs[2]();
+
+console.log(buildFunctions);
+
+//console.log is executed once the function is invoked, not when buildFunctions runs
+//shows what the value is in memory of its parents context
