@@ -1,8 +1,8 @@
-//expression -> unit it code that results in a value. EX 1+2 returns 3, a = 3 returns a set to 3
+//expression -> unit of code that results in a value. EX 1+2 returns 3, a = 3 returns a set to 3
 
 var a;
 
-//state does work, expression results in a value
+//statement does work, expression results in a value
 if (a === 3) {
 
 } 
